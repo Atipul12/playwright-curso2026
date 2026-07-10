@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { Loginpage } from '../pageobject/login/Loginpage';
 
 test('login', async ({ page }) => {
-  await page.goto('http://127.0.0.1:5501/login.html');
+  await page.goto('http://127.0.0.1:5500/login.html');
 
   const loginpage =new Loginpage(page)
   await loginpage.fillusername()
