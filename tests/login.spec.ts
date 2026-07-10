@@ -34,7 +34,7 @@ test('login', async ({ page }) => {
 
 
 test('login failed', async ({ page }) => {
-  await page.goto('http://127.0.0.1:5501/login.html');
+  await page.goto('http://127.0.0.1:5500/login.html');
 
 
   const loginpage =new Loginpage(page)
